@@ -8,3 +8,4 @@ django-bootstrap4
 pygithub
 mockito~=1.4.0
 environ~=1.0
+kafka-python==2.0.2
