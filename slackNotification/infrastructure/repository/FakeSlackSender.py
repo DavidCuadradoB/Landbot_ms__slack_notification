@@ -1,4 +1,4 @@
-from slackNotification.application.dto.SlacklDTO import SlackDTO
+from slackNotification.application.dto.SlackDTO import SlackDTO
 from slackNotification.application.repository.SlackSender import SlackSender
 
 
