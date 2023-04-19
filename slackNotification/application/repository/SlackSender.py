@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from slackNotification.application.dto.SlacklDTO import SlackDTO
+from slackNotification.application.dto.SlackDTO import SlackDTO
 
 
 class SlackSender(ABC):

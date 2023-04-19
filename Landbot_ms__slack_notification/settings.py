@@ -125,5 +125,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SLACK_ADDRESS = 'a fake slack address'
-SALES_SLACK_CHANNEL = 'where the money come from'
+SALES_SLACK_CHANNEL = 'a fake slack channel'
 
