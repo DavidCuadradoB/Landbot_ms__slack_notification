@@ -22,7 +22,6 @@ class SalesConsumer:
                                  )
 
         for message in consumer:
-            print(message.value)
             body = json.loads(message.value)
             command = NotifySalesCommand(body['topic'], body['description'])
             self.notify_sales_use_case.execute(command)
